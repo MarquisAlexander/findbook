@@ -21,6 +21,17 @@ export const Container = styled.div`
     max-height: 8rem;
     padding: 0 1rem 0 0;
   }
+  & .img {
+    min-height: 8rem;
+    min-width: 5rem;
+    padding: 0 1rem 0 0;
+  }
+
+  & .text {
+    min-height: 1rem;
+    min-width: 20rem;
+    margin: 0 0 0 1rem;
+  }
 `;
 
 export const Tag = styled.div`
